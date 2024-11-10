@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_LaserEffect
+  m_Name: Main_LaserEffect
   m_Shader: {fileID: -6465566751694194690, guid: e5ea43816913dbf47ab42b447f9d6d93, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -58,8 +58,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _DissolveAmount: 0.232
-    - _NoiseAmount: -0.05
+    - _DissolveAmount: 0
+    - _NoiseAmount: -0.09
     - _NoisePower: 1.09
     - _NoiseScale: 25
     - _QueueControl: 0

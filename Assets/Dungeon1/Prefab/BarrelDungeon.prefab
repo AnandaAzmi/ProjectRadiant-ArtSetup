@@ -48,6 +48,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 0798f5362c0697340a852373ff58a6d1, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 259efddcd4e6e6445acf0fcea930ed18, type: 2}
     - target: {fileID: 919132149155446097, guid: 0798f5362c0697340a852373ff58a6d1, type: 3}
       propertyPath: m_Name
       value: BarrelDungeon

@@ -6,6 +6,7 @@ using TMPro;
 public class TypingAuto : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI[] _textMeshProArray;  // Array untuk menyimpan 3 TextMeshProUGUI
+    [SerializeField] AudioSource typingAudio;  // Komponen AudioSource untuk suara typing
     public float timeBtwnChar;
     public float timeBtwnwords;
     public string[] stringArray;  // Array berisi string yang akan ditampilkan
@@ -33,6 +34,13 @@ public class TypingAuto : MonoBehaviour
             {
                 _textMeshProArray[textIndex].text = stringArray[i];  // Set teks pada TextMeshPro yang sesuai
                 _textMeshProArray[textIndex].gameObject.SetActive(true);  // Mengaktifkan TextMeshPro untuk indeks ini
+
+                // Mainkan suara typing
+                if (typingAudio != null && !typingAudio.isPlaying)
+                {
+                    typingAudio.Play();
+                }
+
                 StartCoroutine(TextVisible(_textMeshProArray[textIndex]));
             }
         }
@@ -52,6 +60,13 @@ public class TypingAuto : MonoBehaviour
             {
                 i += 1;  // Increment untuk ke string berikutnya
                 Invoke("PlayHere", timeBtwnwords);  // Tunggu beberapa detik sebelum melanjutkan
+
+                // Hentikan suara typing jika selesai
+                if (typingAudio != null && typingAudio.isPlaying)
+                {
+                    typingAudio.Stop();
+                }
+
                 break;
             }
 

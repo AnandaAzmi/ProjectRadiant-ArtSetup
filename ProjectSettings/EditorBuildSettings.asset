@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Cutscene Ahir/SceneAhir.unity
+    guid: c8b760bc7a7ca5448b4ddb206e2f3f23
+  - enabled: 1
+    path: Assets/Dungeon1/Dungeon1.unity
+    guid: 67ad527f809c74c448f10c5c0b013aa8
   m_configObjects: {}

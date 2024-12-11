@@ -5016,7 +5016,7 @@ GameObject:
   - component: {fileID: 4036880090360307234}
   - component: {fileID: 1758155285331710864}
   m_Layer: 0
-  m_Name: 'Multiple Slash 2 '
+  m_Name: Multiple water Slash 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

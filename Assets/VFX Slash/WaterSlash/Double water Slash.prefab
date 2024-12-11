@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 591190778729077668}
   - component: {fileID: 7766377755290005010}
   m_Layer: 0
-  m_Name: Double Slash
+  m_Name: Double water Slash
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Cutscene Ahir/SceneAhir.unity
-    guid: c8b760bc7a7ca5448b4ddb206e2f3f23
+    path: Assets/LobbyArea/LobbyArea.unity
+    guid: c2dfb6fbd599aeb4b93c8cdfcee70e54
   - enabled: 1
     path: Assets/Dungeon1/Dungeon1.unity
     guid: 67ad527f809c74c448f10c5c0b013aa8
+  - enabled: 0
+    path: Assets/Cutscene Ahir/SceneAhir.unity
+    guid: c8b760bc7a7ca5448b4ddb206e2f3f23
+  - enabled: 1
+    path: Assets/Dungeon2/Dungeon2.unity
+    guid: 789ee0f88d0f1e94c8d8251a89bb2459
   m_configObjects: {}

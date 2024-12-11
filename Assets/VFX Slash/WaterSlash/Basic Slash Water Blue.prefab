@@ -4900,7 +4900,7 @@ GameObject:
   - component: {fileID: 8498539484277668835}
   - component: {fileID: 7687771386096879103}
   m_Layer: 0
-  m_Name: Basic Slash Blue
+  m_Name: Basic Slash Water Blue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
